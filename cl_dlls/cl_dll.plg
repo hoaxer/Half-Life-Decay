@@ -1,0 +1,119 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: cl_dll - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Slava\LOCALS~1\Temp\RSP8F.tmp" with contents
+[
+/nologo /G5 /MTd /W3 /Gm /GR /GX /ZI /Od /I "..\dlls" /I "..\common" /I "..\pm_shared" /I "..\engine" /I "..\utils\vgui\include" /I "..\game_shared" /D "_DEBUG" /D "_MBCS" /D "WIN32" /D "_WINDOWS" /D "CLIENT_DLL" /D "CLIENT_WEAPONS" /FR".\Debug/" /Fp".\Debug/cl_dll.pch" /YX /Fo".\Debug/" /Fd".\Debug/" /FD /c 
+"D:\games\Half-Life\decay\SDK\Single-Player Source\cl_dll\ev_hldm.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\cl_dll\hl\hl_events.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\cl_dll\hl\hl_weapons.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Slava\LOCALS~1\Temp\RSP8F.tmp" 
+Creating temporary file "C:\DOCUME~1\Slava\LOCALS~1\Temp\RSP90.tmp" with contents
+[
+oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib winmm.lib ../utils/vgui/lib/win32_vc6/vgui.lib wsock32.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:".\Debug/client.pdb" /debug /machine:I386 /out:"..\..\..\cl_dlls\client.dll" /implib:".\Debug/client.lib" 
+".\Debug\crossbow.obj"
+".\Debug\crowbar.obj"
+".\Debug\egon.obj"
+".\Debug\ev_hldm.obj"
+".\Debug\gauss.obj"
+".\Debug\handgrenade.obj"
+".\Debug\hl_baseentity.obj"
+".\Debug\hl_events.obj"
+".\Debug\hl_objects.obj"
+".\Debug\hl_weapons.obj"
+".\Debug\hl_wpn_glock.obj"
+".\Debug\hornetgun.obj"
+".\Debug\interface.obj"
+".\Debug\mp5.obj"
+".\Debug\python.obj"
+".\Debug\rpg.obj"
+".\Debug\satchel.obj"
+".\Debug\shotgun.obj"
+".\Debug\squeakgrenade.obj"
+".\Debug\tripmine.obj"
+".\Debug\vgui_scrollbar2.obj"
+".\Debug\vgui_slider2.obj"
+".\Debug\voice_banmgr.obj"
+".\Debug\voice_status.obj"
+".\Debug\ammo.obj"
+".\Debug\ammo_secondary.obj"
+".\Debug\ammohistory.obj"
+".\Debug\battery.obj"
+".\Debug\cdll_int.obj"
+".\Debug\com_weapons.obj"
+".\Debug\death.obj"
+".\Debug\demo.obj"
+".\Debug\entity.obj"
+".\Debug\ev_common.obj"
+".\Debug\events.obj"
+".\Debug\flashlight.obj"
+".\Debug\GameStudioModelRenderer.obj"
+".\Debug\geiger.obj"
+".\Debug\health.obj"
+".\Debug\hud.obj"
+".\Debug\hud_msg.obj"
+".\Debug\hud_redraw.obj"
+".\Debug\hud_servers.obj"
+".\Debug\hud_spectator.obj"
+".\Debug\hud_update.obj"
+".\Debug\in_camera.obj"
+".\Debug\input.obj"
+".\Debug\inputw32.obj"
+".\Debug\menu.obj"
+".\Debug\message.obj"
+".\Debug\mode.obj"
+".\Debug\parsemsg.obj"
+".\Debug\pm_debug.obj"
+".\Debug\pm_math.obj"
+".\Debug\pm_shared.obj"
+".\Debug\saytext.obj"
+".\Debug\status_icons.obj"
+".\Debug\statusbar.obj"
+".\Debug\studio_util.obj"
+".\Debug\StudioModelRenderer.obj"
+".\Debug\text_message.obj"
+".\Debug\train.obj"
+".\Debug\tri.obj"
+".\Debug\util.obj"
+".\Debug\vgui_checkbutton2.obj"
+".\Debug\vgui_ClassMenu.obj"
+".\Debug\vgui_ConsolePanel.obj"
+".\Debug\vgui_ControlConfigPanel.obj"
+".\Debug\vgui_CustomObjects.obj"
+".\Debug\vgui_grid.obj"
+".\Debug\vgui_helpers.obj"
+".\Debug\vgui_int.obj"
+".\Debug\vgui_listbox.obj"
+".\Debug\vgui_loadtga.obj"
+".\Debug\vgui_MOTDWindow.obj"
+".\Debug\vgui_notepad.obj"
+".\Debug\vgui_SchemeManager.obj"
+".\Debug\vgui_ScorePanel.obj"
+".\Debug\vgui_ServerBrowser.obj"
+".\Debug\vgui_SpectatorPanel.obj"
+".\Debug\vgui_TeamFortressViewport.obj"
+".\Debug\vgui_teammenu.obj"
+".\Debug\view.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\Slava\LOCALS~1\Temp\RSP90.tmp"
+<h3>Output Window</h3>
+Compiling...
+ev_hldm.cpp
+hl_events.cpp
+hl_weapons.cpp
+Linking...
+   Creating library .\Debug/client.lib and object .\Debug/client.exp
+
+
+
+<h3>Results</h3>
+client.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

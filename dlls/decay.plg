@@ -1,0 +1,239 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: decay - Win32 Profile--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Slava\LOCALS~1\Temp\RSPB3.tmp" with contents
+[
+/nologo /G5 /MT /W3 /Zi /O2 /I "..\dlls" /I "..\engine" /I "..\common" /I "..\pm_shared" /I "..\game_shared" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "QUIVER" /D "VOXEL" /D "QUAKE2" /D "VALVE_DLL" /D "CLIENT_WEAPONS" /Fp".\Profiledecay/decay.pch" /YX /Fo".\Profiledecay/" /Fd".\Profiledecay/" /FD /c 
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\agrunt.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\airtank.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\apache.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\barney.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\bigmomma.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\client.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\combat.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\controller.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\crossbow.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\crowbar.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\displacer.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\effects.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\egon.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\func_tank.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\gamerules.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\gargantua.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\gauss.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\ggrenade.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\gman.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\h_cycler.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\handgrenade.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\hassassin.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\healthkit.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\hgrunt.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\wpn_shared\hl_wpn_glock.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\hornet.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\hornetgun.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\ichthyosaur.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\islave.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\items.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\monsters.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\mortar.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\mp5.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\multiplay_gamerules.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\nihilanth.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\osprey.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\player.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\priest.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\python.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\rpg.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\satchel.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\shotgun.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\singleplay_gamerules.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\sound.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\squeakgrenade.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\teamplay_gamerules.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\tentacle.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\tripmine.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\turret.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\util.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\weapons.cpp"
+"D:\games\Half-Life\decay\SDK\Single-Player Source\dlls\world.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Slava\LOCALS~1\Temp\RSPB3.tmp" 
+Creating temporary file "C:\DOCUME~1\Slava\LOCALS~1\Temp\RSPB4.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /nologo /subsystem:windows /dll /profile /debug /machine:I386 /def:".\decay.def" /out:"..\..\..\dlls\decay.dll" /implib:".\Profiledecay/decay.lib" 
+".\Profiledecay\aflock.obj"
+".\Profiledecay\agrunt.obj"
+".\Profiledecay\airtank.obj"
+".\Profiledecay\animating.obj"
+".\Profiledecay\animation.obj"
+".\Profiledecay\apache.obj"
+".\Profiledecay\barnacle.obj"
+".\Profiledecay\barney.obj"
+".\Profiledecay\bigmomma.obj"
+".\Profiledecay\bloater.obj"
+".\Profiledecay\bmodels.obj"
+".\Profiledecay\bullsquid.obj"
+".\Profiledecay\buttons.obj"
+".\Profiledecay\cbase.obj"
+".\Profiledecay\chargers.obj"
+".\Profiledecay\client.obj"
+".\Profiledecay\combat.obj"
+".\Profiledecay\controller.obj"
+".\Profiledecay\crossbow.obj"
+".\Profiledecay\crowbar.obj"
+".\Profiledecay\defaultai.obj"
+".\Profiledecay\displacer.obj"
+".\Profiledecay\doors.obj"
+".\Profiledecay\effects.obj"
+".\Profiledecay\egon.obj"
+".\Profiledecay\explode.obj"
+".\Profiledecay\flyingmonster.obj"
+".\Profiledecay\func_break.obj"
+".\Profiledecay\func_tank.obj"
+".\Profiledecay\game.obj"
+".\Profiledecay\gamerules.obj"
+".\Profiledecay\gargantua.obj"
+".\Profiledecay\gauss.obj"
+".\Profiledecay\genericmonster.obj"
+".\Profiledecay\ggrenade.obj"
+".\Profiledecay\globals.obj"
+".\Profiledecay\gman.obj"
+".\Profiledecay\h_ai.obj"
+".\Profiledecay\h_battery.obj"
+".\Profiledecay\h_cine.obj"
+".\Profiledecay\h_cycler.obj"
+".\Profiledecay\h_export.obj"
+".\Profiledecay\handgrenade.obj"
+".\Profiledecay\hassassin.obj"
+".\Profiledecay\headcrab.obj"
+".\Profiledecay\healthkit.obj"
+".\Profiledecay\hgrunt.obj"
+".\Profiledecay\hl_wpn_glock.obj"
+".\Profiledecay\hornet.obj"
+".\Profiledecay\hornetgun.obj"
+".\Profiledecay\houndeye.obj"
+".\Profiledecay\ichthyosaur.obj"
+".\Profiledecay\islave.obj"
+".\Profiledecay\items.obj"
+".\Profiledecay\leech.obj"
+".\Profiledecay\lights.obj"
+".\Profiledecay\maprules.obj"
+".\Profiledecay\monstermaker.obj"
+".\Profiledecay\monsters.obj"
+".\Profiledecay\monsterstate.obj"
+".\Profiledecay\mortar.obj"
+".\Profiledecay\mp5.obj"
+".\Profiledecay\multiplay_gamerules.obj"
+".\Profiledecay\nihilanth.obj"
+".\Profiledecay\nodes.obj"
+".\Profiledecay\osprey.obj"
+".\Profiledecay\pathcorner.obj"
+".\Profiledecay\plane.obj"
+".\Profiledecay\plats.obj"
+".\Profiledecay\player.obj"
+".\Profiledecay\pm_debug.obj"
+".\Profiledecay\pm_math.obj"
+".\Profiledecay\pm_shared.obj"
+".\Profiledecay\priest.obj"
+".\Profiledecay\python.obj"
+".\Profiledecay\rat.obj"
+".\Profiledecay\roach.obj"
+".\Profiledecay\rpg.obj"
+".\Profiledecay\satchel.obj"
+".\Profiledecay\schedule.obj"
+".\Profiledecay\scientist.obj"
+".\Profiledecay\scripted.obj"
+".\Profiledecay\shotgun.obj"
+".\Profiledecay\singleplay_gamerules.obj"
+".\Profiledecay\skill.obj"
+".\Profiledecay\sound.obj"
+".\Profiledecay\soundent.obj"
+".\Profiledecay\spectator.obj"
+".\Profiledecay\spritetrain.obj"
+".\Profiledecay\squadmonster.obj"
+".\Profiledecay\squeakgrenade.obj"
+".\Profiledecay\subs.obj"
+".\Profiledecay\talkmonster.obj"
+".\Profiledecay\teamplay_gamerules.obj"
+".\Profiledecay\tempmonster.obj"
+".\Profiledecay\tentacle.obj"
+".\Profiledecay\triggers.obj"
+".\Profiledecay\tripmine.obj"
+".\Profiledecay\turret.obj"
+".\Profiledecay\util.obj"
+".\Profiledecay\voice_gamemgr.obj"
+".\Profiledecay\weapons.obj"
+".\Profiledecay\world.obj"
+".\Profiledecay\xen.obj"
+".\Profiledecay\zombie.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\Slava\LOCALS~1\Temp\RSPB4.tmp"
+<h3>Output Window</h3>
+Compiling...
+agrunt.cpp
+airtank.cpp
+apache.cpp
+barney.cpp
+bigmomma.cpp
+client.cpp
+combat.cpp
+controller.cpp
+crossbow.cpp
+crowbar.cpp
+displacer.cpp
+effects.cpp
+egon.cpp
+func_tank.cpp
+gamerules.cpp
+gargantua.cpp
+gauss.cpp
+ggrenade.cpp
+gman.cpp
+h_cycler.cpp
+handgrenade.cpp
+hassassin.cpp
+healthkit.cpp
+hgrunt.cpp
+hl_wpn_glock.cpp
+hornet.cpp
+hornetgun.cpp
+ichthyosaur.cpp
+islave.cpp
+items.cpp
+monsters.cpp
+mortar.cpp
+mp5.cpp
+multiplay_gamerules.cpp
+nihilanth.cpp
+osprey.cpp
+player.cpp
+priest.cpp
+python.cpp
+rpg.cpp
+satchel.cpp
+shotgun.cpp
+singleplay_gamerules.cpp
+sound.cpp
+squeakgrenade.cpp
+teamplay_gamerules.cpp
+tentacle.cpp
+tripmine.cpp
+turret.cpp
+util.cpp
+weapons.cpp
+world.cpp
+Linking...
+   Creating library .\Profiledecay/decay.lib and object .\Profiledecay/decay.exp
+
+
+
+<h3>Results</h3>
+decay.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

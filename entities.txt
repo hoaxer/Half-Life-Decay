@@ -1,0 +1,58 @@
+//worldspawn
+todo: radfile - specifies radfile for level
+
+//obj entities
+object_model
+
+//func entities
+func_frame
+
+//env entities
+env_dlight
+env_elight
+env_lensflare
+env_warpball
+env_shockwave
+env_spritetrain
+todo: env_extremefunnle - funnel effect as seen in end of ht04dampen
+
+//items
+todo: item_healthcharger
+todo: item_recharge
+todo: item_eyescanner
+ |
+ |_unlocked_target
+ |
+ |_reset_delay
+
+//monsters
+todo: monster_wheelchair
+todo: monster_rosenberg
+todo: monster_alienflyer
+ |
+ |_death_target - activate that target if monster was killed
+ |_target       - first stop target
+
+//triggers
+todo: trigger_enddecay
+ |
+ |_accuracy(c-a) - accuracy percents to get (c-a) level
+ |_kills(c-a)    - number of kills to get (c-a) level
+ |_wounds(c-a)   - amount of hurt to get (c-a) level
+ |_message
+
+todo: trigger_random
+ |
+ |_trigger start - 1/0
+ |_probability
+ |_randomrange   - range for random function
+ |_target        - name of entity to target. Number will be added to it (e.g. "spawn_" = "spawn_RANDOMNUMBER")
+
+trigger_once\trigger_multiple\trigger_push
+ |
+ |_player_index  - index of decay player which can activate this trigger
+
+//other entities
+todo: multi_kill_manager
+ |
+ |_name_of_object_to_kill interval
